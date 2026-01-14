@@ -1,0 +1,22 @@
+# 忽略所有数据文件 (数据太大了，不要上传)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.h5
+*.pkl
+data/
+
+# 忽略系统垃圾文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Python 编译文件和缓存
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+
+# 忽略你的个人配置或密码 (如果有)
+config.py
+.env
